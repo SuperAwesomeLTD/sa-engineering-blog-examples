@@ -291,7 +291,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../commonlib\" copyFramework \\\n-Pconfiguration.build.dir=\"$CONFIGURATION_BUILD_DIR\"          \\\n-Pkotlin.build.type=\"$KOTLIN_BUILD_TYPE\"                      \\\n-Pis32bit=\"$KOTLIN_IS32BIT\"                                   \\\n-Pdevice=\"$KOTLIN_DEVICE\"\n";
+			shellScript = "\"$SRCROOT/../gradlew\" -p \"$SRCROOT/../shared\" copyFramework \\\n-Pconfiguration.build.dir=\"$CONFIGURATION_BUILD_DIR\"          \\\n-Pkotlin.build.type=\"$KOTLIN_BUILD_TYPE\"                      \\\n-Pis32bit=\"$KOTLIN_IS32BIT\"                                   \\\n-Pdevice=\"$KOTLIN_DEVICE\"\n";
 		};
 		0748264C225DDEB70029D99C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;

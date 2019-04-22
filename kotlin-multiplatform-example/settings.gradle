@@ -1,2 +1,2 @@
-include ':app', ':commonlib'
+include ':app', ':shared'
 enableFeaturePreview('GRADLE_METADATA')
