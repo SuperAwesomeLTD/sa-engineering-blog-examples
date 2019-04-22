@@ -1,0 +1,6 @@
+framework module SACommonLib {
+    umbrella header "SACommonLib.h"
+
+    export *
+    module * { export * }
+}
